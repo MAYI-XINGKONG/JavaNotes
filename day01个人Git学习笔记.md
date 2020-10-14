@@ -16,7 +16,7 @@
 
 #### **启动Git**
 
-安装成功后在始菜单中会有Git项，菜单下有3个程序：任意文件夹下右键也可以看到对应的程序！![day01-01](G:\javanote\images\day01-01.png)
+安装成功后在始菜单中会有Git项，菜单下有3个程序：任意文件夹下右键也可以看到对应的程序！![day01-01](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day01-01.png?raw=true)
 
 ```
 Git Bash：Unix与Linux风格的命令行，使用最多，推荐最多
