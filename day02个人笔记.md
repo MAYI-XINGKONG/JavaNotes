@@ -22,7 +22,7 @@
 
 - 变量前面有数据类型，这才是定义变量
 
-- 断点操作：<img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200924105204142.png" alt="image-20200924105204142" style="zoom: 150%;" />
+- 断点操作：![day02-01.png](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day02-01.png?raw=true)
 
 - 变量在使用之前必须赋值
 
@@ -60,8 +60,8 @@
   %:取余(5%2=1；5.0%2=1.0)
   ```
 
-- 数字拆分规律![image-20200924162146387](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200924162146387.png)
+- 数字拆分规律![day02-02.png](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day02-02.png?raw=true)
 
 - Ctrl+alt +L：格式化代码
 
-- 字符串拼接![image-20200924170259675](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200924170259675.png)
+- 字符串拼接![day02-03.png](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day02-03.png?raw=true)
