@@ -11,13 +11,13 @@
   // public：
   ```
 
-- 对成员方法加入修饰符的作用及**思想**(一个类的方法不能被其他类访问但是还要被调用(不被直接访问)，就可以将这个方法私有化并让这个类的另一个方法调用这个方法(可以被间接访问，这样可以保护私密数据))![image-20200929100143655](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200929100143655.png)
+- 对成员方法加入修饰符的作用及**思想**(一个类的方法不能被其他类访问但是还要被调用(不被直接访问)，就可以将这个方法私有化并让这个类的另一个方法调用这个方法(可以被间接访问，这样可以保护私密数据))![image-20200929100143655](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day05-01.png?raw=true)
 
 - 方法重载的好处：不需要记忆过多繁琐的方法名字(例子：Println)
 
 - 构造方法的作用：
 
-  ![image-20200929111733992](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200929111733992.png)
+  ![image-20200929111733992](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day05-02.png?raw=true)
 
   ```java
   /*
@@ -34,7 +34,7 @@
   		2、将属性抽取到类中，是对数据的一种封装
   ```
 
-- JavaBean类：(通常一个项目会将这种类放在同一个包(domain)下)![image-20200929115011502](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200929115011502.png)
+- JavaBean类：(通常一个项目会将这种类放在同一个包(domain)下)![image-20200929115011502](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day05-03.png?raw=true)
 
 - 对象在方法中作为参数传递，传递的实际上是对象多记录的地址值
 

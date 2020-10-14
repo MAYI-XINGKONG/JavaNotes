@@ -42,7 +42,7 @@
 
 ​				**成员方法：（调用时）编译看父类(左边)，运行看子类(右边)**
 
-​				![image-20201010112128158](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201010112128158.png)
+​				![image-20201010112128158](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day09-01.png?raw=true)
 
 #### 多态的好处和弊端
 
@@ -53,11 +53,11 @@
 -有了多态以后，我们就可以将一个方法的形参定义为父类的类型，这个方法就可以接受该父类的任意子类对象了
 ```
 
-![image-20201010112613506](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201010112613506.png)
+![image-20201010112613506](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day09-02.png?raw=true)
 
 **Demo:**
 
-​					![image-20201010113228193](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201010113228193.png)
+​					![image-20201010113228193](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day09-03.png?raw=true)
 
 ##### 弊端
 

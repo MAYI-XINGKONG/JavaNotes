@@ -39,7 +39,7 @@ sout(a++);//注意：加号在后面，需要先将a提取出来进行输出操�
   //123或者7都是int类型，我们并没有进行强转，但为什么没有报错呢，原因是虽然是大转小，但是123或者7显然没有超过byte的取值范围，所以不会报错。*常量优化机制*
   ```
 
-  ![image-20200926111108325](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20200926111108325.png)
+  ![image-20200926111108325](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day03-01.png?raw=true)
 
 - 扩展赋值运算符：赋值运算符底层自带强转效果
 

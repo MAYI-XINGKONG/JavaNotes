@@ -35,17 +35,19 @@
 
 - 构造方法不能被继承，因为构造方法的名字必须与类名一致
 
-- 如果父类没有空参构造方法，子类会出现什么情况？![image-20201008175716673](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201008175716673.png)
+- 如果父类没有空参构造方法，子类会出现什么情况？![image-20201008175716673](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day08-01.png?raw=true)
 
 - 子类在初始化(就是给子类独有的成员变量赋值)之前，一定要先完成父类的初始化(给父类的成员变量赋值)——因为子类在初始化对象的时候，有可能会用到父类的数据，如果父类没有提前完成初始化，子类将无法使用对应的数据
 
   解释：
 
-  ![image-20201008145531976](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201008145531976.png)
+  ![image-20201008145531976](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day08-02.png?raw=true)
 
-  例子：![demo构造方法不能继承，子类初始化前需要先初始化父类](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\demo构造方法不能继承，子类初始化前需要先初始化父类.png)
+  例子：![demo构造方法不能继承，子类初始化前需要先初始化父类](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day08-03demo%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95%E4%B8%8D%E8%83%BD%E7%BB%A7%E6%89%BF%EF%BC%8C%E5%AD%90%E7%B1%BB%E5%88%9D%E5%A7%8B%E5%8C%96%E5%89%8D%E9%9C%80%E8%A6%81%E5%85%88%E5%88%9D%E5%A7%8B%E5%8C%96%E7%88%B6%E7%B1%BB.png?raw=true)
 
-- 在所有的构造方法中，都默认隐藏着一行代码![image-20201008145307598](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201008145307598.png)
+- 在所有的构造方法中，都默认隐藏着一行代码
+
+  子类中所有的构造方法默认都会访问父类中无参的构造方法
 
   ```java
   super();//放在方法的第一行代码位置
@@ -73,7 +75,7 @@
   NUM = 20;
   ```
 
-  ![image-20201008170203250](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201008170203250.png)
+  ![image-20201008170203250](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day08-04.png?raw=true)
 
   ```java
   引用数据类型变量:(类类型变量、数组类型的变量...)

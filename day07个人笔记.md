@@ -5,7 +5,7 @@
   但是建议存储的一组数据的数据类型一致
   ```
 
-- 什么时候使用数组![image-20201007085226173](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201007085226173.png)
+- 什么时候使用数组![image-20201007085226173](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day07-01.png?raw=true)
 
 - 数组初始化的简化格式仅仅只是简化了书写格式，编译时系统会自动帮我们加上new关键字（细节）
 
@@ -19,9 +19,11 @@
 
 - null只能赋值给引用数据类型，若赋值给基本数据类型则会报错！！
 
-- 空指针异常：![image-20201007111702786](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201007111702786.png)
+- 空指针异常：![image-20201007111702786](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day07-02.png?raw=true)
 
-- 用亦或‘^‘实现数据交换*![image-20201007145017358](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20201007145017358.png)
+- 用亦或‘^‘实现数据交换
+
+  ![image-20201007145017358](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day07-03.png?raw=true)
 
 - 二维数组的反转逻辑代码
 
