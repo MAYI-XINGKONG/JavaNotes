@@ -406,7 +406,7 @@ touch READMEgit add README git commit -m 'first commit'git push origin master
 
 ### 简易命令行入门教程
 
-![img](https://images2015.cnblogs.com/blog/909970/201611/909970-20161115183802248-208466588.png)
+![img](https://github.com/MAYI-XINGKONG/JavaNotes/blob/master/images/day01-09.png?raw=true)
 
 ### IDEA集成Git
 
